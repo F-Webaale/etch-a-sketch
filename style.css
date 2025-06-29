@@ -1,5 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 #container {
     background-color: aqua;
     height: auto;
     width: 1024px;
+    display: flex;
 }
