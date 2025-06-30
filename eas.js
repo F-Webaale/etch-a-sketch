@@ -69,7 +69,7 @@ div15.setAttribute("style", "background:blue; height:64px; width: 64px;");
 
 const div16 = document.createElement('div');
 set1.appendChild(div16);
-div16.setAttribute("style", "background:red; height:64px; width: 64px;");
+div16.setAttribute("style", "background:red; height:64px; width: 64px;"); 
 
 //set 2
 const set2 = document.createElement('div');
@@ -224,7 +224,7 @@ set4.appendChild(div51);
 div51.setAttribute("style", "background:blue; height:64px; width: 64px;");
 
 const div52 = document.createElement('div');
-set4.appendChild(div32);
+set4.appendChild(div52);
 div52.setAttribute("style", "background:red; height:64px; width: 64px;");
 
 const div53 = document.createElement('div');
@@ -756,7 +756,7 @@ const set12 = document.createElement('div');
 container.appendChild(set12);
 
 const div177 = document.createElement('div');
-set4.appendChild(div177);
+set12.appendChild(div177);
 div177.setAttribute("style", "background:blue; height:64px; width: 64px;");
 
 const div178 = document.createElement('div');
@@ -1090,3 +1090,4 @@ div255.setAttribute("style", "background:blue; height:64px; width: 64px;");
 const div256 = document.createElement('div');
 set16.appendChild(div256);
 div256.setAttribute("style", "background:red; height:64px; width: 64px;");
+
