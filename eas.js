@@ -1372,9 +1372,13 @@ divArr.forEach(
 let btn = document.createElement('button');
 let body = document.querySelector('body');
 
-body.appendChild(btn);
-btn.setAttribute('style', 'height: 20px; width: auto;');
+body.insertBefore(btn, container);
+btn.setAttribute('style', 'height: 20px; width: auto; alignItems: flexStart;');
 btn.textContent = "CLick Me!"
+
+btn.addEventListener('click', () => {
+    prompt('Hi');
+});
 
 
 
