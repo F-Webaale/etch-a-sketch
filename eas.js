@@ -2,6 +2,7 @@ console.log("Test");
 
 const container = document.querySelector('#container');
 
+
 //set 1
 
 const set1 = document.createElement('div');
@@ -1366,5 +1367,15 @@ divArr.forEach(
         );
     }
 );
+
+//create a button that set the number of squares
+let btn = document.createElement('button');
+let body = document.querySelector('body');
+
+body.appendChild(btn);
+btn.setAttribute('style', 'height: 20px; width: auto;');
+btn.textContent = "CLick Me!"
+
+
 
 
