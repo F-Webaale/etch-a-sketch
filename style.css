@@ -1,11 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 #container {
-    background-color: aqua;
+    background-color: lightblue;
     height: auto;
-    width: 1024px;
-    display: flex;
+    /*width: auto;
+    display:flex;*/
 }

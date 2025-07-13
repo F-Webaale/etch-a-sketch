@@ -1,5 +1,5 @@
 console.log("Test");
-
+/*
 const container = document.querySelector('#container');
 
 
@@ -1377,9 +1377,28 @@ btn.setAttribute('style', 'height: 20px; width: auto; alignItems: flexStart;');
 btn.textContent = "CLick Me!"
 
 btn.addEventListener('click', () => {
-    prompt('Hi');
+    let input = Number(prompt('Choose a number to set number of grids'));
+    
+    for (let i=0; i <=input; i++) {
+
+    }
 });
+*/
+
+const container = document.querySelector('#container');
+let row = 16;
+let column = 16;
+let cellSize = 20;
+container.style.width = `${column * cellSize}px`;
 
 
-
-
+    for(let i=1; i<=row * column; i++) {
+        let cell = document.createElement('div');
+        cell.setAttribute('style', 'backgroundColor: green;');
+        cell.setAttribute(`class` ,`div${i}`);
+        cell.style.display = 'inline-block';
+        cell.style.width = `${cellSize}px`;
+        cell.style.height = '50px';
+        container.appendChild(cell);
+     }
+   
