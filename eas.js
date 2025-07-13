@@ -1390,15 +1390,35 @@ let row = 16;
 let column = 16;
 let cellSize = 20;
 container.style.width = `${column * cellSize}px`;
+container.style.fontSize = 0;
 
 
     for(let i=1; i<=row * column; i++) {
         let cell = document.createElement('div');
         cell.setAttribute('style', 'backgroundColor: green;');
-        cell.setAttribute(`class` ,`div${i}`);
+        cell.setAttribute(`class` ,`divs`);
         cell.style.display = 'inline-block';
         cell.style.width = `${cellSize}px`;
         cell.style.height = '50px';
+        cell.style.border = '1px solid red';
         container.appendChild(cell);
      }
-   
+
+//add a mouse down event listener(hover effect)
+let press = document.querySelector("#container");
+let divs = document.querySelectorAll(".divs");
+
+let divArr = [...divs];
+divArr.forEach(
+    div => {
+        div.addEventListener('mouseover', () => {
+            div.style.background = 'blue';
+        }
+        );
+        
+        div.addEventListener('mouseout', () => {
+            div.style.background = 'lightGrey';
+        }
+        );
+    }
+);

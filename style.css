@@ -5,8 +5,7 @@
 }
 
 #container {
-    background-color: lightblue;
     height: auto;
-    /*width: auto;
-    display:flex;*/
+    width: auto;
+
 }
