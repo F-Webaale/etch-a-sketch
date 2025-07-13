@@ -1396,6 +1396,11 @@ btn.textContent = "CLick Me!";
 
 function makeGrid(input) {
     input = Number(prompt('Insert Number to create grid'));
+
+    if (input > 100) {
+        prompt('You cant insert number greater than 100, TRY AGAIN!');
+    };
+
     let row = input;
     let column = input;
     let cellSize = 20;
