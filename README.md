@@ -4,39 +4,39 @@
 <h2>Implementation Approach</h2>
 <h3>Technical Requirements</h3>
 
-<li>
-<ol>Built using only vanilla JavaScript (no frameworks)</ol>
-<ol>Relies exclusively on DOM manipulation methods</ol>
-<ol>Avoids CSS Grid for layout (per project requirements)</ol>
-</li>
+<ol>
+<li>Built using only vanilla JavaScript (no frameworks)</li>
+<li>Relies exclusively on DOM manipulation methods</li>
+<li>Avoids CSS Grid for layout (per project requirements)</li>
+</ol>
 
 <h3>Development Logic</h3>
-<li>
-<ol>Container Setup</ol>
-<ol>Created a container div in HTML</ol>
-<ol>Applied basic styling via CSS</ol>
-</li>
+<ol>
+<li>Container Setup</li>
+<li>Created a container div in HTML</li>
+<li>Applied basic styling via CSS</li>
+</ol>
 
 <h3>Grid Generation</h3>
-<li>
-<ol>Used JavaScript loops to create multiple div elements</ol>
-<ol>Dynamically appended elements to the container using DOM methods</ol>
-<ol>Applied styling attributes through JavaScript to create grid layout</ol>
-</li>
+<ol>
+<li>Used JavaScript loops to create multiple div elements</li>
+<li>Dynamically appended elements to the container using DOM methods</li>
+<li>Applied styling attributes through JavaScript to create grid layout</li>
+</ol>
 
 <h3>Drawing Functionality</h3>
-<li>
-<ol>Implemented hover effects using mouse event listeners</ol>
-<ol>Added color change on mouseover to simulate "drawing"</ol>
-<ol></ol>
-</li>
+<ol>
+<li>Implemented hover effects using mouse event listeners</li>
+<li>Added clior change on mouseover to simulate "drawing"</li>
+<li></li>
+</ol>
 
 <h3>User Customization</h3>
-<li>
-<ol>Added a button to prompt for grid size</ol>
-<ol>Implemented grid regeneration based on user input</ol>
-<ol>Included input validation for proper grid sizing</ol>
-</li>
+<ol>
+<li>Added a button to prompt for grid size</li>
+<li>Implemented grid regeneration based on user input</li>
+<li>Included input validation for proper grid sizing</li>
+</ol>
 
 
 
